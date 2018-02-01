@@ -1,52 +1,52 @@
 
-        body{
-          font-family: 'Open Sans', sans-serif;
-          font-size: 16px;            
-          color: rgb(245, 245, 245);
-          /* background-color: rgb(37, 37, 37); */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;            
+    color: rgb(245, 245, 245);
+    /* background-color: rgb(37, 37, 37); */
 
-          background-color: #0b0b0b;
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23151515' fill-opacity='0.34'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
-          line-height: 30px;
-      }
-      a,
-      a:focus {
-          color: rgb(245, 245, 245);
-      }
-      ul, ul li{
-        list-style-type: none;
-      }
-      a:hover{
-        text-decoration: none;
-        font-weight: bold;
-      }
-      hr{
-        border-color: rgb(245, 245, 245);
-      }
-      h1,h2,h3,h4,h5,h6{
-          font-family: 'Quicksand', sans-serif;
-      }
-      h2,h3,h4,h5,h6{
-      line-height: 50px;
-      }
-      .title{
-          font-family: 'Raleway', sans-serif;
-          text-transform: capitalize;
-          font-size: 8rem;
-          font-weight: 100;
-      }
-      #links a{
-          font-size: 1.5rem;
-          padding: 15px 40px;
-          transition: background-color 0.5s ease;
-      }
-      #links a:hover, #links a.active{
-        
-          background-color: rgb(177, 177, 177);            
-          box-shadow: 0 0 90px #000;
-          border-radius: 1px;
-          color: #111;
-      }
-      #resumeDetails a{        
-        color: #2686b5;
-      }
+    background-color: #0b0b0b;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23151515' fill-opacity='0.34'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+@media (min-width: 576px) {
+    .title{
+        font-size: 6rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .title{
+        font-size: 7rem;
+    }
+  }
+a,
+a:focus {
+    color: rgb(245, 245, 245);
+}
+a:hover {
+    color: rgb(141, 141, 141);
+}
+ul, ul li{
+/* list-style-type: none; */
+}
+a:hover{
+text-decoration: none;
+}
+hr{
+border-color: rgb(245, 245, 245);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+}
+.title{
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+#links a{
+    font-size: 1.5rem;
+    padding: 15px 40px;
+}
+#resumeDetails a{        
+color: #2686b5;
+}
